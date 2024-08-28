@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 import SpinnerLoading from './components/SpinnerLoading/SpinnerLoading'
 
 // Utils 
-import ScrollTop from './utils/ScrollToTop'
+import ScrollToTop from './utils/ScrolltoTop.jsx'
 import { AppContext } from './contexts/AppContext'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <Router>
-      <ScrollTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
