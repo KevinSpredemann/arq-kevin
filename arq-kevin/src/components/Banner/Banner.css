@@ -1,0 +1,16 @@
+.banner {
+    background-color: rgb(209, 205, 205);
+    background-position: center;
+    background-size: cover;
+    height: 236px;
+    width: 100%;
+}
+
+.tittle-panel{
+    background-color: white;
+    border-radius: 37px 37px 0 0;
+    font-size: 50px;
+    height: 110px;
+    margin: 0 auto;
+    max-width: 500px;
+}
